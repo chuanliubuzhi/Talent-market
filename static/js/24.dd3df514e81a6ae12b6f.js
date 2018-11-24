@@ -1,0 +1,2 @@
+webpackJsonp([24],{"947D":function(e,n){},nNPw:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("router-view")],1)},staticRenderFns:[]};var u=t("C7Lr")({name:"recruitIndex",components:{},created:function(){},data:function(){return{}},methods:{}},r,!1,function(e){t("947D")},null,null);n.default=u.exports}});
+//# sourceMappingURL=24.dd3df514e81a6ae12b6f.js.map
