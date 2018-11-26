@@ -34,6 +34,7 @@ import EnterpriseEnterpriseInfo from '../views/enterprise/enterpriseinfo'
 import EnterpriseJobmanageIndex from '../views/enterprise/jobmanage/index'
 import EnterpriseJobmanageJhistory from '../views/enterprise/jobmanage/jhistory'
 import EnterpriseJobmanageAlljob from '../views/enterprise/jobmanage/alljob'
+import EnterpriseJobmanageRecords from '../views/enterprise/jobmanage/records'
 import EnterpriseJobmanageJobdetail from '../views/enterprise/jobmanage/jobdetail'
 import EnterpriseJobpostNewjob from '../views/enterprise/jobpost/newjob'
 import EnterpriseJobpostStationame from '../views/enterprise/jobpost/stationame'
@@ -104,11 +105,6 @@ const router = new Router({
             path: '/position',
             component: UcenterPosition,
             name: 'position',
-        },
-        {
-            path: '/employDetail',
-            component: UcenterEmployDetail,
-            name: 'employDetail',
         },
         // 企业设置
         {
