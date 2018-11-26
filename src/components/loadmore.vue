@@ -78,7 +78,7 @@
         watch: {
             // 改变当前加载在状态
             bottomStatus(val) {
-                
+
                 switch (val) {
                     case 'pull':
                         this.bottomText = this.bottomPullText;
@@ -229,7 +229,7 @@
                     // 滚动距离
                     let scrolltop = this.getScrollTop(window)
                     let innnerheight = window.innerHeight
-                    
+
                     let lh = scrolltop + innnerheight + 1
 
                     let height = document.body.scrollHeight
@@ -245,7 +245,7 @@
                         // console.log('1')
                         this.bottomMethod();
                     } else {
-                        this.translate = '0'; 
+                        this.translate = '0';
                         this.bottomStatus = 'pull';
                     }
                 }
@@ -253,12 +253,12 @@
             },
             getWindowHeight () {
                 var windowHeight = 0;
-            　　if(document.compatMode == "CSS1Compat"){
-            　　　　windowHeight = document.documentElement.clientHeight;
-            　　}else{
-            　　　　windowHeight = document.body.clientHeight;
-            　　}
-            　　return windowHeight;
+                if(document.compatMode == "CSS1Compat"){
+                    windowHeight = document.documentElement.clientHeight;
+                }else{
+                    windowHeight = document.body.clientHeight;
+                }
+                return windowHeight;
             }
         },
         mounted() {
