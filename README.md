@@ -1,30 +1,22 @@
-# zp
+# Talent-market
 
-> A Vue.js project
+> 一个手机移动端app 
 
-## Build Setup
+## 预览地址 https://chuanliubuzhi.github.io/Talent-market/
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 运用技术
 
-# build for production with minification
-npm run build
+> Vue、vue-router、axios、vux、ES6、v-distpicker
 
-# build for production and view the bundle analyzer report
-npm run build --report
+    Vue：用于构建用户界面的 MVVM 框架。它的核心是响应的数据绑定和组系统件
 
-# run unit tests
-npm run unit
+    vue-router：为单页面应用提供的路由系统，项目上线前使用了 Lazy Loading Routes 技术来实现异步加载优化性能
 
-# run e2e tests
-npm run e2e
+    vux：一个凑合的 Vue.js 移动端 UI 组件库
 
-# run all tests
-npm test
-```
+    ES6：ECMAScript 新一代语法，模块化、解构赋值、Promise、Class 等方法非常好用
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+    axios: AJAX插件
+
+    v-distpicker： 一个灵活，高度可用的区域选择器，用于挑选中国的省，市和区。
